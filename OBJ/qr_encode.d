@@ -1,0 +1,14 @@
+..\obj\qr_encode.o: ..\QR_ENCODE\qr_encode.c
+..\obj\qr_encode.o: F:\MDK5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\qr_encode.o: ..\QR_ENCODE\qr_encode.h
+..\obj\qr_encode.o: ..\SYSTEM\sys\sys.h
+..\obj\qr_encode.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\qr_encode.o: ..\SYSTEM\sys\stm32f429xx.h
+..\obj\qr_encode.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\qr_encode.o: F:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\qr_encode.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\qr_encode.o: ..\SYSTEM\sys\cmsis_armcc.h
+..\obj\qr_encode.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\qr_encode.o: ..\SYSTEM\sys\core_cmSimd.h
+..\obj\qr_encode.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\qr_encode.o: ..\QR_ENCODE\qr_data.h

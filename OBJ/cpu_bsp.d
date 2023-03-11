@@ -1,0 +1,25 @@
+..\obj\cpu_bsp.o: ..\UCOSII\UCOS_BSP\cpu_bsp.c
+..\obj\cpu_bsp.o: ..\UCOSII\uCOS-II\Source\os.h
+..\obj\cpu_bsp.o: ..\UCOSII\uCOS-II\Source\ucos_ii.h
+..\obj\cpu_bsp.o: ..\UCOSII\uCOS-CONFIG\os_cfg.h
+..\obj\cpu_bsp.o: ..\UCOSII\uCOS-II\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h
+..\obj\cpu_bsp.o: ..\UCOSII\UCOS_BSP\bsp.h
+..\obj\cpu_bsp.o: ..\UCOSII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h
+..\obj\cpu_bsp.o: ..\UCOSII\uC-CPU\cpu_def.h
+..\obj\cpu_bsp.o: ..\UCOSII\uCOS-CONFIG\cpu_cfg.h
+..\obj\cpu_bsp.o: ..\UCOSII\uC-CPU\cpu_core.h
+..\obj\cpu_bsp.o: ..\UCOSII\uC-LIB\lib_def.h
+..\obj\cpu_bsp.o: ..\UCOSII\uC-LIB\lib_mem.h
+..\obj\cpu_bsp.o: ..\UCOSII\uC-CPU\cpu_core.h
+..\obj\cpu_bsp.o: ..\UCOSII\uCOS-CONFIG\lib_cfg.h
+..\obj\cpu_bsp.o: ..\UCOSII\uC-LIB\lib_str.h
+..\obj\cpu_bsp.o: ..\UCOSII\uC-LIB\lib_ascii.h
+..\obj\cpu_bsp.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\cpu_bsp.o: ..\SYSTEM\sys\stm32f429xx.h
+..\obj\cpu_bsp.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\cpu_bsp.o: D:\learning materials\stm32OfSoftWare\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\cpu_bsp.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\cpu_bsp.o: ..\SYSTEM\sys\cmsis_armcc.h
+..\obj\cpu_bsp.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\cpu_bsp.o: ..\SYSTEM\sys\core_cmSimd.h
+..\obj\cpu_bsp.o: ..\SYSTEM\sys\system_stm32f4xx.h

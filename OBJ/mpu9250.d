@@ -1,0 +1,14 @@
+..\obj\mpu9250.o: ..\HARDWARE\MPU9250\mpu9250.c
+..\obj\mpu9250.o: ..\HARDWARE\MPU9250\mpu9250.h
+..\obj\mpu9250.o: ..\SYSTEM\sys\sys.h
+..\obj\mpu9250.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\mpu9250.o: ..\SYSTEM\sys\stm32f429xx.h
+..\obj\mpu9250.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\mpu9250.o: F:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\mpu9250.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\mpu9250.o: ..\SYSTEM\sys\cmsis_armcc.h
+..\obj\mpu9250.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\mpu9250.o: ..\SYSTEM\sys\core_cmSimd.h
+..\obj\mpu9250.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\mpu9250.o: ..\HARDWARE\24CXX\myiic.h
+..\obj\mpu9250.o: ..\SYSTEM\delay\delay.h

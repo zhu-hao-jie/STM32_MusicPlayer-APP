@@ -1,0 +1,16 @@
+..\obj\24l01.o: ..\HARDWARE\NRF24L01\24l01.c
+..\obj\24l01.o: ..\HARDWARE\NRF24L01\24l01.h
+..\obj\24l01.o: ..\SYSTEM\sys\sys.h
+..\obj\24l01.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\24l01.o: ..\SYSTEM\sys\stm32f429xx.h
+..\obj\24l01.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\24l01.o: F:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\24l01.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\24l01.o: ..\SYSTEM\sys\cmsis_armcc.h
+..\obj\24l01.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\24l01.o: ..\SYSTEM\sys\core_cmSimd.h
+..\obj\24l01.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\24l01.o: ..\HARDWARE\LCD\lcd.h
+..\obj\24l01.o: F:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\24l01.o: ..\SYSTEM\delay\delay.h
+..\obj\24l01.o: ..\HARDWARE\SPI\spi.h

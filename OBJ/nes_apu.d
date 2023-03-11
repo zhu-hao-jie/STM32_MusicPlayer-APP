@@ -1,0 +1,14 @@
+..\obj\nes_apu.o: ..\NES\nes_apu.c
+..\obj\nes_apu.o: ..\NES\nes_apu.h
+..\obj\nes_apu.o: ..\NES\nes_main.h
+..\obj\nes_apu.o: ..\SYSTEM\sys\sys.h
+..\obj\nes_apu.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\nes_apu.o: ..\SYSTEM\sys\stm32f429xx.h
+..\obj\nes_apu.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\nes_apu.o: F:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\nes_apu.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\nes_apu.o: ..\SYSTEM\sys\cmsis_armcc.h
+..\obj\nes_apu.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\nes_apu.o: ..\SYSTEM\sys\core_cmSimd.h
+..\obj\nes_apu.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\nes_apu.o: ..\MALLOC\malloc.h

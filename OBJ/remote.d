@@ -1,0 +1,15 @@
+..\obj\remote.o: ..\HARDWARE\REMOTE\remote.c
+..\obj\remote.o: ..\HARDWARE\REMOTE\remote.h
+..\obj\remote.o: ..\SYSTEM\sys\sys.h
+..\obj\remote.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\remote.o: ..\SYSTEM\sys\stm32f429xx.h
+..\obj\remote.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\remote.o: F:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\remote.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\remote.o: ..\SYSTEM\sys\cmsis_armcc.h
+..\obj\remote.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\remote.o: ..\SYSTEM\sys\core_cmSimd.h
+..\obj\remote.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\remote.o: ..\SYSTEM\delay\delay.h
+..\obj\remote.o: ..\SYSTEM\usart\usart.h
+..\obj\remote.o: F:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
