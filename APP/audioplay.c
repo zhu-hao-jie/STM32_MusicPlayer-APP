@@ -8,24 +8,7 @@
 #include "mp3play.h" 
 #include "flacplay.h" 
 #include "apeplay.h"  
-//////////////////////////////////////////////////////////////////////////////////	 
-//本程序只供学习使用，未经作者许可，不得用于其它任何用途
-//ALIENTEK STM32开发板
-//音乐播放器 应用代码	   
-//正点原子@ALIENTEK
-//技术论坛:www.openedv.com
-//创建日期:2016/1/11
-//版本：V1.2
-//版权所有，盗版必究。
-//Copyright(C) 广州市星翼电子科技有限公司 2014-2024
-//All rights reserved
-//********************************************************************************
-//V1.1 20160530
-//修改部分代码，以支持最新的fatfs（R0.12）
-//V1.2 
-//修改代码以支持综合实验，且仅限综合实验使用
-////////////////////////////////////////////////////////////////////////////////// 	
- 
+
 //audio播放控制器
 //_m_audiodev  *audiodev=NULL;
 _lyric_obj *lrcdev=NULL;				//歌词控制器 
@@ -112,13 +95,13 @@ void audio_play_task(void *pdata)
 	{
 		audiodev.curindex=(u32)OSMboxPend(audiombox,0,&rval)-1;	//请求邮箱,要减去1,因为发送的时候增加了1
 		audioinfo=(FILINFO*)gui_memin_malloc(sizeof(FILINFO));	//申请FILENFO内存
-		rval=f_opendir(&audiodir,(const TCHAR*)audiodev.path);	//打开选中的目录 
+		rval=f_opendir(&audiodir,(const TCHAR*)audiodev.path);	//打开选中的目录 , ff.h
 		while(rval==0&&audioinfo)
 		{	  	 			   
 			ff_enter(audiodir.obj.fs);//进入fatfs,防止被打断.
 			dir_sdi(&audiodir,audiodev.mfindextbl[audiodev.curindex]);
 			ff_leave(audiodir.obj.fs);//退出fatfs,继续运行os等
-			rval=f_readdir(&audiodir,audioinfo);//读取文件信息 
+			rval=f_readdir(&audiodir,audioinfo);//读取文件信息 ,读取目录项
 			if(rval)break;//打开失败   
 			audiodev.name=(u8*)(audioinfo->fname); 
 			pname=gui_memin_malloc(strlen((const char*)audiodev.name)+strlen((const char*)audiodev.path)+2);//申请内存

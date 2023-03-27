@@ -52,6 +52,7 @@ extern void ff_leave(FATFS*fs);
 
 
 /* Definitions of sector size */
+/*扇区大小的定义*/
 #if (_MAX_SS < _MIN_SS) || (_MAX_SS != 512 && _MAX_SS != 1024 && _MAX_SS != 2048 && _MAX_SS != 4096) || (_MIN_SS != 512 && _MIN_SS != 1024 && _MIN_SS != 2048 && _MIN_SS != 4096)
 #error Wrong sector size configuration
 #endif
@@ -1405,7 +1406,8 @@ DWORD clmt_clust (	/* <2:Error, >=2:Cluster number */
 
 
 /*-----------------------------------------------------------------------*/
-/* Directory handling - Set directory index                              */
+/* Directory handling - Set directory index              
+目录处理 - 设置目录索引*/
 /*-----------------------------------------------------------------------*/
 
 //static

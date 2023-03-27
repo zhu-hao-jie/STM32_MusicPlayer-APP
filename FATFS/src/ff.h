@@ -176,6 +176,7 @@ typedef struct {
 
 
 /* Directory object structure (DIR) */
+/*目录对象结构 (DIR)*/
 
 typedef struct {
 	_FDID	obj;			/* Object identifier */
