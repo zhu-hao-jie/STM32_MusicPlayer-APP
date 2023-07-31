@@ -1177,6 +1177,7 @@ void app_wm8978_volset(u8 vol)
 }
 //WM8978 EQ设置
 //eqx:频段编号,0~4,对应EQ1~5
+//EQ:均衡器，wm8978有5路均衡器
 void app_wm8978_eqset(_wm8978_obj *wmset,u8 eqx)
 {
 	switch(eqx)
